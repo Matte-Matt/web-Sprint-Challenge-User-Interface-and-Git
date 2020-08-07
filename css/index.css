@@ -129,7 +129,7 @@ table {
 
 * {
   box-sizing: border-box;
-  border: solid white 1px;
+  border: solid black 1px;
 }
 
 html,
@@ -222,6 +222,7 @@ nav {
   align-items: center;
   justify-content: center;
 }
+
 .middle-content .boxes .box2 {
   width: 12.5%;
   height: 100px;
@@ -232,6 +233,7 @@ nav {
   align-items: center;
   justify-content: center;
 }
+
 .middle-content .boxes .box3 {
   width: 12.5%;
   height: 100px;
@@ -242,6 +244,7 @@ nav {
   align-items: center;
   justify-content: center;
 }
+
 .middle-content .boxes .box4 {
   width: 12.5%;
   height: 100px;
@@ -252,6 +255,7 @@ nav {
   align-items: center;
   justify-content: center;
 }
+
 .middle-content .boxes .box5 {
   width: 12.5%;
   height: 100px;
@@ -262,6 +266,7 @@ nav {
   align-items: center;
   justify-content: center;
 }
+
 .middle-content .boxes .box6 {
   width: 12.5%;
   height: 100px;
@@ -272,6 +277,7 @@ nav {
   align-items: center;
   justify-content: center;
 }
+
 .middle-content .boxes .box7 {
   width: 12.5%;
   height: 100px;
@@ -282,6 +288,7 @@ nav {
   align-items: center;
   justify-content: center;
 }
+
 .middle-content .boxes .box8 {
   width: 12.5%;
   height: 100px;
@@ -292,6 +299,7 @@ nav {
   align-items: center;
   justify-content: center;
 }
+
 .middle-content .boxes .box9 {
   width: 12.5%;
   height: 100px;
@@ -302,6 +310,7 @@ nav {
   align-items: center;
   justify-content: center;
 }
+
 .middle-content .boxes .box10 {
   width: 12.5%;
   height: 100px;
@@ -312,6 +321,27 @@ nav {
   align-items: center;
   justify-content: center;
 }
+.dash-line {
+  color: white;
+  border-bottom: 1px dashed black;
+  margin: 3% auto;
+}
+
+.flight-one {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-one {
+  display: flex;
+  justify-content: space-between;
+}
+.text-one button {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5%;
+}
+
 .bottom-content {
   display: flex;
   margin: 0 2% 20px;
