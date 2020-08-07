@@ -34,30 +34,44 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-2. Name two big differences between `display: block;` and `display: inline;`.
+Semantic HTML is basically correct html structure, it makes perfect sense to set tags such as header, section, footer, etc accordingly because this sets you up for success by maintaining a organized html and an organized html will provide efficiency and ease to the css structure that will follow.
 
-3. What are the 4 areas of the box model?
+2.  Name two big differences between `display: block;` and `display: inline;`.
 
-4. While using flexbox, what axis does the following property work on: `align-items: center`?
+        1) :block displays an element as a block element therefore it will take up the width of the whole page, making a new line for itself as well as indivisual width and height preferences.
+        2) :inline displays an element as a inline element meaning it will line up next to items on it's line much like what span or br would do likewise like those elements the width and height preferences are dependant upon the line it rests on, so it can not be adjusted like display:block can be.
+
+3.  What are the 4 areas of the box model?
+
+        1)Margin
+        2)Border
+        3)Padding
+        4)Content
+
+4.  While using flexbox, what axis does the following property work on: `align-items: center`?
+
+The items would be centered on the cross axis or in other words it aligns centered horizotally
 
 5. Explain why git is valuable to a team of developers.
+
+Mainly I believe git is crucial due to the fact it allows multiple people to work on the same project at the same time while being moderated to avoid mistakes and promote optimization to whatever application being worked on, similarly it can enable an indivisual to work on the same project independant of the team they belong to making it a awesome tool to apply diverse methodology.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section _will_ prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your Team Lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push -u origin `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add your Team Lead as collaborator on Github.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Push commits: git push -u origin `<firstName-lastName>`.
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repo). **Please don't merge your own pull request**
-- [ ] Add your Team Lead as a reviewer on the pull-request
-- [ ] Your Team Lead will count the project as complete by merging the branch back into master.
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repo). **Please don't merge your own pull request**
+- [x] Add your Team Lead as a reviewer on the pull-request
+- [x] Your Team Lead will count the project as complete by merging the branch back into master.
 
 ## Minimum Viable Product
 
@@ -67,8 +81,8 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design file for the home page](design-files/home.png). Notice the navigation and header images are missing.
 
-- [ ] Build the HTML and CSS to create the missing navigation and header.
-- [ ] Link the `About` navigation item to the [about.html](about.html) page
+- [x] Build the HTML and CSS to create the missing navigation and header.
+- [x] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors. Use this list below to correctly style each box:
 
@@ -105,4 +119,4 @@ After finishing your required elements, you can push your work further. These go
 - [ ] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property
 
 * Finish read
-  Starting
+  Starting..
