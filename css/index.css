@@ -173,9 +173,6 @@ nav {
 .main-sail {
   margin: 10px 20% 10px 26%;
 }
-.box {
-  background-color: violet;
-}
 
 .container {
   width: 800px;
@@ -328,18 +325,26 @@ nav {
 }
 
 .flight-one {
-  display: flex;
-  justify-content: space-between;
+  width: 50%;
+}
+.flight-one img {
+  width: 100%;
+}
+.flight-two img {
+  width: 100%;
+}
+.flight-three img {
+  width: 100%;
+}
+.flight-four img {
+  width: 100%;
 }
 
-.text-one {
-  display: flex;
-  justify-content: space-between;
+.flight-two {
+  width: 50%;
 }
-.text-one button {
+section {
   display: flex;
-  flex-wrap: wrap;
-  padding: 5%;
 }
 
 .bottom-content {
