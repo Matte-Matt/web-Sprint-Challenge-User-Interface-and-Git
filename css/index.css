@@ -120,7 +120,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
+  content: "/";
   content: none;
 }
 table {
@@ -129,7 +129,6 @@ table {
 
 * {
   box-sizing: border-box;
-  border: solid black 1px;
 }
 
 html,
@@ -172,8 +171,11 @@ nav {
 }
 .main-sail {
   margin: 10px 20% 10px 26%;
+  width: 80%;
 }
-
+section h2 {
+  margin: 0 2% 5% 2%;
+}
 .container {
   width: 800px;
   margin: 0 auto;
@@ -324,9 +326,6 @@ nav {
   margin: 3% auto;
 }
 
-.flight-one {
-  width: 50%;
-}
 .flight-one img {
   width: 100%;
 }
@@ -340,9 +339,47 @@ nav {
   width: 100%;
 }
 
+.flight-one {
+  width: 50%;
+  margin: 10% 2% 20% 0;
+  padding: 1%;
+  border-bottom: dashed black 1px;
+}
+
 .flight-two {
   width: 50%;
+  margin: 10% 2% 20% 0;
+  padding: 1%;
+  border-bottom: dashed black 1px;
 }
+
+.flight-three {
+  width: 50%;
+  margin: 10% 2% 20% 0;
+  padding: 1%;
+  border-bottom: dashed black 1px;
+}
+
+.flight-four {
+  width: 50%;
+  margin: 10% 2% 20% 0;
+  padding: 1%;
+  border-bottom: dashed black 1px;
+}
+.button {
+  background-color: white;
+  color: black;
+  font-size: 1.5rem;
+  border: solid black 1.5px;
+  border-radius: 10%;
+  margin: 10px 0 0 0;
+}
+
+.low-text {
+  margin: 20% 0 10% 0;
+  font-size: 1rem;
+}
+
 section {
   display: flex;
 }
