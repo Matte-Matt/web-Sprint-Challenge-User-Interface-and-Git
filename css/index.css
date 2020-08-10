@@ -178,7 +178,12 @@ section h2 {
 }
 .container {
   width: 800px;
-  margin: 0 auto;
+  margin: 0 5% 0 26%;
+}
+
+.container about-page {
+  margin: 0 5% 0 26%;
+  display: flex;
 }
 
 .top-content {
@@ -320,10 +325,18 @@ section h2 {
   align-items: center;
   justify-content: center;
 }
-.dash-line {
-  color: white;
-  border-bottom: 1px dashed black;
-  margin: 3% auto;
+
+.top-flight {
+  display: flex;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.bottom-flight {
+  display: flex;
+
+  margin-bottom: 10%;
+  padding-bottom: 5%;
 }
 
 .flight-one img {
@@ -341,47 +354,41 @@ section h2 {
 
 .flight-one {
   width: 50%;
-  margin: 10% 2% 20% 0;
   padding: 1%;
   border-bottom: dashed black 1px;
 }
 
 .flight-two {
   width: 50%;
-  margin: 10% 2% 20% 0;
   padding: 1%;
   border-bottom: dashed black 1px;
 }
 
 .flight-three {
   width: 50%;
-  margin: 10% 2% 20% 0;
   padding: 1%;
   border-bottom: dashed black 1px;
 }
 
 .flight-four {
   width: 50%;
-  margin: 10% 2% 20% 0;
   padding: 1%;
   border-bottom: dashed black 1px;
 }
+
 .button {
   background-color: white;
   color: black;
   font-size: 1.5rem;
   border: solid black 1.5px;
   border-radius: 10%;
-  margin: 10px 0 0 0;
+  margin: 10px 0 20px 0;
+  padding: 1%;
 }
 
 .low-text {
-  margin: 20% 0 10% 0;
+  margin: 10% 0 10% 0;
   font-size: 1rem;
-}
-
-section {
-  display: flex;
 }
 
 .bottom-content {
