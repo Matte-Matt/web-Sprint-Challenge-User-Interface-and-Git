@@ -106,4 +106,4 @@ After finishing your required elements, you can push your work further. These go
 
 * Finish read
 
-starting...
+starting... now
