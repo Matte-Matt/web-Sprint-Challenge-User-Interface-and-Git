@@ -296,3 +296,91 @@ footer nav a {
 .home-logo {
   margin: 1% 0 -1.5% 26.5%;
 }
+
+.about-text {
+  margin: 1.5% 0 2% 0;
+}
+
+.about-text p span {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+.cube-mama {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 50%;
+  margin: 0 25% 0 25%;
+}
+.cube-mama a {
+  color: black;
+}
+
+.content-cube1,
+.content-cube2,
+.content-cube3,
+.content-cube4 {
+  width: 45%;
+  margin-bottom: 5%;
+  border-bottom: dashed 1px black;
+  padding-bottom: 2%;
+}
+
+.cube-mama .content-cube1 .lm-button {
+  padding: 1%;
+
+  border: 2px solid black;
+  border-radius: 15%;
+  color: black;
+  margin-top: 1%;
+  width: 25%;
+}
+
+.cube-mama .content-cube2 .lm-button {
+  padding: 1%;
+  border: 2px solid black;
+  border-radius: 15%;
+  color: black;
+  margin-top: 1%;
+  width: 25%;
+}
+
+.cube-mama .content-cube3 .lm-button {
+  padding: 1%;
+  border: 2px solid black;
+  border-radius: 15%;
+  color: black;
+  margin-top: 1%;
+  width: 25%;
+}
+
+.cube-mama .content-cube4 .lm-button {
+  padding: 1%;
+  border: 2px solid black;
+  border-radius: 15%;
+  color: black;
+  margin-top: 1%;
+  width: 25%;
+}
+
+.about-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 48%;
+  margin: 0 25.5% 4% 26%;
+}
+.about-text p {
+  border-bottom: dashed 1px black;
+  padding-bottom: 3%;
+}
+
+.lwt {
+  width: 50%;
+  margin: 5% 25% 2% 25%;
+}
+
+footer {
+  width: 50%;
+  margin: 0 25% 0 25%;
+}
