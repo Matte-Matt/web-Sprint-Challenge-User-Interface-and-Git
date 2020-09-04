@@ -105,3 +105,5 @@ After finishing your required elements, you can push your work further. These go
 - [ ] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property
 
 * Finish read
+
+starting...
